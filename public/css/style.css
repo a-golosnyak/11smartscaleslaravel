@@ -1,26 +1,30 @@
+/*===== Basic elements ==============================================================================*/
 html,
 body,
-header,
 .view {
   height: 100%;
 }
 
+/*
 @media (max-width: 740px) {
-  html,
-  body,
-  header,
-  .view {
-    height: 1000px;
-  }
+    html,
+    body,
+    header,
+    .view {
+      height: 1000px;
+    }
 }
+*/
+/*
 @media (min-width: 800px) and (max-width: 850px) {
-  html,
-  body,
-  header,
-  .view {
-    height: 650px;
-  }
+    html,
+    body,
+    header,
+    .view {
+      height: 650px;
+    }
 }
+*/
 .top-nav-collapse {
   background-color: #3f51b5 !important;
 }
@@ -50,6 +54,21 @@ header,
 
 h6 {
   line-height: 1.7;
+}
+
+/*===== Custom elements ==================================================================================*/
+.h-85 {
+  height: 85% !important;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #0a0a6e;
 }
 
 /*===== 03pointerinteraction.php =========================================================================*/
