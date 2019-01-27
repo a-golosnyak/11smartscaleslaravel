@@ -101,49 +101,6 @@ hr {
 .list .list-item {
   flex: 0 0 50%;
   margin-bottom: 16px;
-=======
-.top-nav-collapse {
-  background-color: #3f51b5 !important;
->>>>>>> 1030c4c5804a5e66d971da81876dd3867d03eb72
-}
-
-.list .list-item > i {
-  width: 35px;
-}
-
-@media (max-width: 743px) {
-  .list .title {
-    flex: 1 1 33%;
-  }
-
-  .list .content {
-    flex: 1 1 67%;
-  }
-
-  .list .list-item {
-    flex: 0 0 100%;
-  }
-
-}
-
-.about p.contracted {
-  height: 250px;
-  overflow: hidden;
-}
-
-<<<<<<< HEAD
-button {
-  text-align: center;
-  vertical-align: middle;
-  user-select: none;
-  white-space: nowrap;
-  cursor: pointer;
-  display: inline-block;
-  margin-bottom: 0;
-=======
-.card-home {
-  background-color: rgba(126, 123, 215, 0.2);
->>>>>>> 1030c4c5804a5e66d971da81876dd3867d03eb72
 }
 
 .about button.more {
@@ -253,7 +210,6 @@ body.modal-open {
     justify-content: space-between;
 }
 
-<<<<<<< HEAD
 .carousel-control {
     padding: 1rem;
     color: #ffffff;
@@ -264,7 +220,6 @@ body.modal-open {
         font-size: 3rem;
     }
 }
-=======
 .navbar-expand-md{
     background-color: #461CC3 !important;
 }
@@ -330,7 +285,6 @@ body.modal-open {
 /*===== 05pointerinteraction.php =========================================================================*/
 /*===== 05pointerinteraction.php =========================================================================*/
 /*===== 05pointerinteraction.php =========================================================================*/
->>>>>>> 1030c4c5804a5e66d971da81876dd3867d03eb72
 
 .rcolor{
     color: red;
