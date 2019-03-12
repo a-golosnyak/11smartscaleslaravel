@@ -3,28 +3,30 @@
 
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
-    <title>SmartScales main page</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/mdb.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-  </head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="../../favicon.ico">
+  <title>SmartScales main page</title>
+  <link href="{{URL::asset('css/app.css')}}" rel="stylesheet">
+  <!--link rel="stylesheet" href="{{mix('css/app.css')}}"-->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
 
-  <body aria-busy="true">
+<body aria-busy="true">
   <!-- Main navigation -->
-  <header>
-    <!-- Navbar -->
+  <header> 
+    <!-- Navbar --> 
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <strong>MDB</strong>
+          <strong>MDB</strong>  
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -111,31 +113,31 @@
   </header>
   <!-- Main navigation -->
   <!--Main Layout-->
-    <main>
-        <div class="container">
-            <!--Grid row-->
-            <div class="row py-5">
-                <!--Grid column-->
-                <div class="col-md-12 text-center">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-                <!--Grid column-->
-            </div>
-            <!--Grid row-->
-        </div>
-    </main>
+  <main>
+      <div class="container">
+          <!--Grid row-->
+          <div class="row py-5">
+              <!--Grid column-->
+              <div class="col-md-12 text-center">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+              <!--Grid column-->
+          </div>
+          <!--Grid row-->
+      </div>
+  </main>
 
-    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <!--script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="js/popper.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script type="text/javascript" src="js/mdb.min.js"></script-->
 
     <div class="hiddendiv common"></div>
 
-    <script>
+    <!--script>
         new WOW().init();
-    </script>
-
+    </script-->
+</body>
     
 </html>
 

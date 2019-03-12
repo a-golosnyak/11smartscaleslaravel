@@ -1,33 +1,28 @@
 {
-  "name": "blog",
-  "version": "1.0.0",
-  "description": "",
-  "main": "Gruntfile.js",
-  "dependencies": {
-    "bootstrap-sass": "^3.3.7",
-    "node-sass": "^4.7.2",
-    "npm": "^6.4.1",
-    "sass": "^1.0.0-beta.5.2"
-  },
-  "devDependencies": {
-    "grunt": "^1.0.3",
-    "grunt-browser-sync": "^2.2.0",
-    "grunt-cli": "^1.2.0",
-    "grunt-contrib-sass": "^1.0.0",
-    "grunt-contrib-watch": "^1.0.0",
-    "grunt-sass": "^2.1.0"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/shitikovkirill/CookiesMakeup.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/shitikovkirill/CookiesMakeup/issues"
-  },
-  "homepage": "https://github.com/shitikovkirill/CookiesMakeup#readme"
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "npm run development -- --watch",
+        "watch-poll": "npm run watch -- --watch-poll",
+        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "devDependencies": {
+        "axios": "^0.18",
+        "bootstrap": "^4.0.0",
+        "browser-sync": "^2.26.3",
+        "browser-sync-webpack-plugin": "2.0.1",
+        "cross-env": "^5.1",
+        "jquery": "^3.2",
+        "laravel-mix": "^2.0",
+        "lodash": "^4.17.5",
+        "popper.js": "^1.12",
+        "vue": "^2.5.7",
+        "sass": "^1.15.2",
+        "sass-loader": "^7.1.0",
+        "resolve-url-loader": "^2.3.1",
+        "bootstrap-sass": "^3.0.0"
+    }
 }
